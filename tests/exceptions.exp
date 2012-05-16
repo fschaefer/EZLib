@@ -1,0 +1,12 @@
+Exceptions Test:
+new TestClass
+in constructor of 'TestClass'
+calling open_file with filename ./exceptions.c on TestClass
+in open_file of 'TestClass'
+calling open_file with filename ./exceptions.foobar on TestClass
+in open_file of 'TestClass'
+ezlib: throwing exception ‘5’ in ‘TestClass_open_file’ at exceptions.c:55
+catching exception 5
+reason for exception 'File IO Exception'
+calling Destructor
+in destructor of 'TestClass'

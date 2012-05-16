@@ -1,0 +1,17 @@
+Classes Test:
+new TestClass
+in constructor of 'TestClass'
+calling Destructor
+in destructor of 'TestClass'
+new DerivedTestClass
+explicit calling constructor of '__super__'
+in constructor of 'TestClass'
+in constructor of 'DerivedTestClass'
+calling Interface Method
+ITest_print of: 'DerivedTestClass'
+class of: DerivedTestClass
+Testing auto accessors of: DerivedTestClass
+attribute 'pos' value is: 33
+explicit calling destructor of '__super__'
+in destructor of 'TestClass'
+in destructor of 'DerivedTestClass'

@@ -1,0 +1,36 @@
+first string '   first string   ' with strlen '18'
+second string 'second string', strlen should be 13 == '13'
+removing leading whitespace from first string: 'first string   '
+removing trailing whitespace from first string: 'first string'
+concatenation of the first and second string: 'first stringsecond string'
+checking if prefix of string: 'first stringsecond string' is 'first'
+prefix ok
+checking if suffix of string: 'first stringsecond string' is 'string'
+suffix ok
+compare fist string with 'first string'
+compare ok
+first string all upper case: 'FIRST STRING'
+first string all lower case: 'first string'
+first string reversed: 'gnirts tsrif'
+first string reversed again: 'first string'
+case insensitive compare of first string
+insensitive compare ok
+case insensitive compare of first string with fixed length
+insensitive compare with fixed length ok
+trancating first string to strlen '5': first
+overwriting second string with 'foobar': foobar
+copying 'second' into second string with ez_stpcpy
+ez_stpcpy ok
+ez_strprintf 'second' into fourth string: second
+erasing 'second' from position '1' with len '4': sd
+removing leading " from fifth string: 'fifth string""""'
+removing trailing " from fifth string: 'fifth string'
+splitting string 'Jon Doe:John Stiles:Richard Miles:Mary Major'
+Jon Doe
+John Stiles
+Richard Miles
+Mary Major
+length of array: 4
+joining array back to string: 'Jon Doe#John Stiles#Richard Miles#Mary Major'
+joining several strings: 'this#is#a#new#string'
+replacing "Stiles" in "John Stiles" with "Miles": 'John Miles'

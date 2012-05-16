@@ -1,0 +1,8 @@
+pattern: Bcast:(\d*).(\d*).(\d*).(\d*)
+subject: inet Adresse:192.168.4.85  Bcast:192.168.4.255  Maske:255.255.255.05
+substrings: 5
+substrings 0: Bcast:192.168.4.255
+substrings 1: 192
+substrings 2: 168
+substrings 3: 4
+substrings 4: 255
